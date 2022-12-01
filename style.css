@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+    
+    justify-content: right;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.secondHalf img{
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    border: 4px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 10px 10px
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.rightNav{
+    /* background-color: blueviolet; */
+    width: 30%;
+    text-align: right;
+    padding: 5px 11px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 2px solid gray;
+}
+
+.background{
+    background: rgba(164, 132, 36, 0.7)url('file:///D:/python/css/what-is-a-functional-organizational-structure-scaled.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 60%;
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+.text-big{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.text-small{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btn{
+    padding: 7px 9px;
+    margin: 3px;
+    border-radius: 9px;
+    background: none;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.section{
+    height: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1212px;
+    margin: auto;
+    font-family: 'Rubik Glitch', cursive;
+    
+
+
+}
+.Left{
+    
+    flex-direction: row-reverse;
+    
+}
+
+.thumbnail{
+    height: 207px;
+}
+
+.thumbnail img{
+    width :98%;
+    height: auto;
+    border-radius: 40px;
+    border: 5px
+px
+ black;
+}
+
+.paras{
+    padding: 79px 0px;
+}
+
+.contect{
+    background-color: rgb(246, 244, 242);
+    height: 130vh;
+
+}
+
+.text-center {
+    text-align: center;
+    margin: 3px;
+}
+
+.form{
+    max-width: 344px;
+    margin: auto;
+    
+}
+.form-input{
+    margin: 13px 0px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
+
+.burger{
+    display: none;
+   
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top:15px;
+    
+}
+.line{
+    width: 40px;
+    background-color: white;
+    height: 4px;
+    margin: 3px ;
+}
+@media only screen and (max-width:1048px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction:column;
+       
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width:100%
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+
+    }
+}
+
